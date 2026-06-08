@@ -8,7 +8,7 @@ const http = require('http');
 //   Anti-kick | Inline Buttons | Auto-reconnect
 // ════════════════════════════════════════════
 
-const TOKEN         = process.env.BOT_TOKEN || "YOUR_BOT_TOKEN_HERE";
+const TOKEN         = process.env.BOT_TOKEN || "8687977912:AAHApH8fBgQVFyJc4gXsV096UVPeJKni90I";
 const PASSWORD      = "shuvo123";
 const ACCOUNTS_FILE = "all_accounts.json";
 const SERVERS_FILE  = "servers.json";
