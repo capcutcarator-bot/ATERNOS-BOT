@@ -1,0 +1,10 @@
+{
+  "name": "shuvo-woe72-afk-bot",
+  "version": "3.0.0",
+  "main": "main_v3.js",
+  "scripts": { "start": "node main_v3.js" },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

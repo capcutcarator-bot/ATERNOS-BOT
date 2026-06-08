@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: shuvo-woe72-afk
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+    healthCheckPath: /
+    autoDeploy: true
